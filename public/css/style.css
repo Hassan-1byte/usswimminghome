@@ -1,0 +1,546 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Lato:ital,wght@0,400;1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --main-primary: #00214d;
+  --main-secondary: #d21044;
+}
+/* #012c61 */
+.navbar {
+  font-family: "Courgette", cursive;
+  background-color: var(--main-primary);
+  padding: 1px 14px;
+}
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.navbar li {
+  list-style: none;
+}
+.navbar li a {
+  text-decoration: none;
+  padding: 13px 30px;
+  color: white;
+}
+.main_container {
+  color: white;
+  height: 660px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: center / cover no-repeat
+    url("https://assets.mybrightsites.com/uploads/sites/3498/themes/3698/391d7a091b7234a7cabe2d44c0e98deadd0d7450/carousel-item-01.jpg?1556275297");
+}
+.introSection {
+  color: white;
+  height: 416px;
+  display: flex;
+  font-family: "Lato", sans-serif;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: center / cover no-repeat
+    url("https://www.barracudausa.com/wp-content/themes/barracuda-usa/assets/img/images/home_page_swimmer_1@1920.jpg");
+}
+.introSection .hero-title {
+  font-size: 50px;
+}
+.introSection .hero-subtitle {
+  font-size: 21px;
+}
+.btn {
+  background-color: var(--main-secondary);
+  height: 40px;
+  width: auto;
+  border: none;
+  color: white;
+  padding: 15px 106px;
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: var(--main-primary);
+  color: white;
+}
+.productSection {
+  height: 970px;
+  background-color: white;
+  color: white;
+}
+.productSection h2 {
+  color: var(--main-primary);
+  margin-top: 11px;
+  display: flex;
+  font-family: "Lato", sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: inline-block;
+  width: 30%;
+  margin: 30px 20px;
+  padding: 0px 45px;
+  height: 254px;
+}
+.card img {
+  height: auto;
+  max-width: 100%;
+  border: 0;
+}
+.sponsorsSection {
+  height: 500px;
+  background-color: white;
+}
+.sponsorsSection .usas-bar-turmeric-centered {
+  background-color: #b1953a;
+  height: 5px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 340px;
+}
+.sponsorsSection h2 {
+  color: var(--main-primary);
+  margin-top: 11px;
+  display: flex;
+  font-family: "Lato", sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+.sponsorsSection .General_OurSponsors img {
+  margin-bottom: 55px;
+  margin-left: 45px;
+  margin-right: 45px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  opacity: 0.5;
+  border: 0;
+  vertical-align: middle;
+  padding: 30px 40px;
+}
+.sponsorsSection .General_OurSponsors img:hover {
+  margin-bottom: 55px;
+  margin-left: 45px;
+  margin-right: 45px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  opacity: 0.9;
+  border: 0;
+  vertical-align: middle;
+  padding: 30px 40px;
+}
+footer {
+  height: 40px;
+  background-color: var(--main-primary);
+  color: white;
+  margin-top: 0px;
+  display: flex;
+  font-family: "Lato", sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+/*////////////////// About Page //////// */
+.about_container {
+  color: white;
+  height: 660px;
+  display: flex;
+  background: center / cover no-repeat
+    url("https://img.wallpapersafari.com/desktop/1024/576/13/92/GqjfVp.jpg");
+  font-family: "Lato", sans-serif;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about_container .hero-title {
+  font-size: 50px;
+  color: gold;
+}
+.about_container .hero-subtitle {
+  font-size: 21px;
+  text-align: center;
+}
+
+/*////////////////// Coaching Page //////// */
+.coaching_container {
+  color: white;
+  height: 660px;
+  display: flex;
+  background: center / cover no-repeat
+    url("https://images.pexels.com/photos/863988/pexels-photo-863988.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  font-family: "Lato", sans-serif;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.coaching_container .hero-title {
+  font-size: 50px;
+  color: var(--main-primary);
+}
+.coaching_container .hero-subtitle {
+  font-size: 21px;
+  text-align: center;
+}
+.third_container {
+  height: 450px;
+  background: center / cover no-repeat
+    url("http://shapes.pk/adminpanel/modules/swimming_management/poolsection_images/HDR21_1494485496.jpg");
+  content: " ";
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* z-index: -3;
+  opacity: 0.9; */
+}
+.third_container h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  line-height: 1.1;
+  margin-top: 11px;
+  display: flex;
+  font-family: "Lato", sans-serif;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.third_container p {
+  font-size: 15px;
+  margin-bottom: 20px;
+  color: white;
+  font-weight: 500;
+  line-height: 1.1;
+  margin-top: 20px;
+  display: flex;
+  font-family: "Lato", sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+.pull-right {
+  float: right !important;
+}
+
+.custombutton_swimming {
+  border: 1px solid transparent;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857;
+  padding: 6px 12px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  background: #fe3c23;
+  border-radius: 0;
+  color: #fff;
+  display: inline-block;
+  font-family: montserrat;
+  margin: 0 auto 24px;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.pool-timing li {
+  height: 35px;
+  margin-bottom: 0;
+}
+li {
+  list-style: none;
+}
+.pull-right {
+  float: right;
+}
+.regular-pool,
+.premium-pool {
+  width: 663px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.shapes-pool {
+  color: #fff;
+  text-align: center;
+}
+.nomargin {
+  margin: 0;
+}
+.pull-left {
+  float: left;
+}
+
+.footer_coaching {
+  height: 49px;
+  width: 100%;
+  padding: 0;
+}
+
+/*////////////////// Buy Equipment Page //////// */
+.Buy_Equip_container {
+  color: white;
+  height: 550px;
+  display: flex;
+  background: center / cover no-repeat
+    url("https://wallpapercave.com/wp/wp2046124.jpg");
+  font-family: "Lato", sans-serif;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+  opacity: 0.9;
+}
+.Buy_container {
+  height: 2150px;
+  background-color: white;
+  color: var(--main-primary);
+}
+.Buy_container h2 {
+  color: var(--main-primary);
+  margin-top: 11px;
+  display: flex;
+  font-family: "Lato", sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+/*////////////////// Contact Page //////// */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.contact_primary_container {
+  color: white;
+  height: 480px;
+  display: flex;
+  background: center / cover no-repeat
+    url("https://wallpapercave.com/wp/wp4083832.jpg");
+  font-family: "Lato", sans-serif;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+.contact_primary_container h1 {
+  color: white;
+  font-size: 48px;
+  margin-top: 5px;
+  display: flex;
+  font-family: "Lato", sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+.contact_primary_container p {
+  color: white;
+  font-size: 28px;
+  margin-top: 2px;
+  display: flex;
+  font-family: "Lato", sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+.contact_secondary_box {
+  background: #f9f9f9;
+}
+
+/* ///// FORM CSS START HERE ////////// */
+.contact_secondary_container {
+  max-width: 780px;
+  height: 600px;
+  width: 100%;
+  margin: -150 auto;
+  position: relative;
+  float: left;
+}
+h4 {
+  display: block;
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  font-family: "Lato", sans-serif;
+  text-align: right;
+}
+p {
+  font-family: "Lato", sans-serif;
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: right;
+}
+.contact_tertiary_container {
+  max-width: 400px;
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+  position: relative;
+  float: right;
+  text-align: left;
+  justify-content: space-around;
+}
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact button[type="submit"] {
+  font: 400 12px/16px "Lato", sans-serif;
+}
+
+#contact {
+  background: #f9f9f9;
+  padding: 30px;
+  margin: 150px 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  height: 600;
+}
+#contact h2 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+#contact p {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="phone"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #fff;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: var(--main-primary);
+  color: #fff;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+#contact button[type="submit"]:hover {
+  background: var(--main-secondary);
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.copyright {
+  text-align: center;
+}
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
+/* ///// FORM CSS Ends HERE ////////// */
+
+.contact_tertiary_container {
+  background: #f9f9f9;
+  padding: 25px;
+  margin: 0px;
+  max-width: 546px;
+  width: 100%;
+  margin: 0px auto;
+  position: relative;
+  float: right;
+}
+
+.footer_contact {
+  height: 49px;
+  width: 100%;
+  padding: 0;
+}
+/*////////////////// 404 ERROR Page //////// */
+.error_container {
+  color: white;
+  height: 536px;
+  display: flex;
+  background: center / cover no-repeat
+    url("https://www.pnclogos.com/wp-content/uploads/2018/10/5-Tips-To-Get-You-Inspired.jpg");
+  font-family: "Lato", sans-serif;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.error_container .btn {
+  margin-top: 380px;
+  border-radius: 10px;
+  padding: 15px 150px;
+}
