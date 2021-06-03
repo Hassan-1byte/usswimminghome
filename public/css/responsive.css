@@ -1,0 +1,97 @@
+@media only screen and (max-width: 1140px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .navbar {
+    height: 68px;
+  }
+
+  .main_container {
+    height: 500px;
+  }
+  .introSection {
+    height: 300px;
+  }
+  .introSection .hero-title {
+    font-size: 30px;
+  }
+  .introSection .hero-subtitle {
+    font-size: 18px;
+  }
+  .card {
+    margin: 30px 10px;
+    padding: 0px 75px;
+  }
+  .productSection {
+    height: 730px;
+  }
+  .sponsorsSection {
+    height: 400px;
+  }
+  .sponsorsSection .General_OurSponsors img {
+    margin-left: 12px;
+  }
+  .btn {
+    padding: 15px 80px;
+  }
+  footer {
+    margin-top: 13px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .navbar {
+    height: 50px;
+  }
+  .navbar li a {
+    padding: 10px 7px;
+  }
+  .main_container {
+    height: 193px;
+  }
+  .introSection .hero-title {
+    font-size: 17px;
+  }
+  .introSection .hero-subtitle {
+    font-size: 12px;
+    text-align: center;
+  }
+  .btn {
+    padding: 0px 25px;
+  }
+  .card {
+    display: inline-block;
+    width: 30%;
+    margin: 5px 15px;
+    padding: 5px 45px;
+    height: 254px;
+  }
+  .card img {
+    max-width: 500%;
+  }
+  .productSection {
+    height: 795px;
+    /* background-color: aquamarine; */
+  }
+  .productSection h2 {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  .sponsorsSection .usas-bar-turmeric-centered {
+    width: 275px;
+  }
+  .sponsorsSection h2 {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+
+  .sponsorsSection {
+    /* height: 850px; */
+    height: 580px;
+  }
+  .sponsorsSection .General_OurSponsors img {
+    margin: 3px 9px;
+    padding: 5px 40px;
+  }
+}
